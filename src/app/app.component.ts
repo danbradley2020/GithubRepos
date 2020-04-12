@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'GithubSearch';
+  user: any= [];
+  repos: any= [];
+  username: string;
+  
 }
